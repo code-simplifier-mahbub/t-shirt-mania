@@ -4,6 +4,7 @@ import Main from './Layout/Main/Main';
 import Home from './components/Home/Home';
 import Order from './components/Order/Order';
 import About from './components/About/About';
+import Grandpa from './components/Grandpa/Grandpa';
 
 function App() {
 
@@ -24,6 +25,10 @@ function App() {
         {
           path: 'about',
           element: <About></About>
+        },
+        {
+          path: '/grandpa',
+          element: <Grandpa></Grandpa>
         }
       ]
     }
